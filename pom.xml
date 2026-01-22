@@ -61,6 +61,20 @@
             <artifactId>spring-security-crypto</artifactId>
         </dependency>
 
+        <!-- Twilio SMS (optional) -->
+        <dependency>
+            <groupId>com.twilio.sdk</groupId>
+            <artifactId>twilio</artifactId>
+            <version>9.14.1</version>
+        </dependency>
+
+        <!-- AWS SDK for SNS (optional) -->
+        <dependency>
+            <groupId>software.amazon.awssdk</groupId>
+            <artifactId>sns</artifactId>
+            <version>2.21.26</version>
+        </dependency>
+
         <!-- Monitoring -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
